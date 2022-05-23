@@ -1,2 +1,4 @@
 ~*
 ltspice/*.raw
+ltspice/*.net
+ltspice/*.log
