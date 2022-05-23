@@ -1,0 +1,18 @@
+* C:\Users\holge\Desktop\github\Alexa_ringbell\ltspice\V2_simple_zener.asc
+V1 ring 0 SINE(0 10 50 0.5 0 0 5)
+R1 rect 0 330k
+D1 ring rect 1N4148
+C1 rect 0 4.7µ
+R2 N001 rect 100k
+Q1 reed N002 0 0 BC547B
+R3 3V3 reed 10k
+V2 3V3 0 3.3
+D2 N002 N001 BZX84B6V2L
+.model D D
+.lib C:\Users\holge\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\holge\Documents\LTspiceXVII\lib\cmp\standard.bjt
+.tran 5
+.backanno
+.end
