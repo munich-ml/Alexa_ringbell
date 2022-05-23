@@ -2,3 +2,4 @@
 ltspice/*.raw
 ltspice/*.net
 ltspice/*.log
+ltspice/*.plt
